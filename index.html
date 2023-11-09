@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy load</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="photos">
+            <img class="async-image" src="css/img/1-min.jpg" data-src="css/img/1.jpg">
+            <img class="async-image hidden" src="css/img/2-min.jpg" data-src="css/img/2.jpg">
+            <img class="async-image hidden" src="css/img/3-min.jpg" data-src="css/img/3.jpg">
+        </div>
+        <div class="buttons">
+            <button class="prev">Назад</button>
+            <button class="next">Вперёд</button>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

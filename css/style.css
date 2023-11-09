@@ -1,0 +1,17 @@
+.async-image {
+    width: 900px;
+}
+
+.hidden {
+    display: none;
+}
+
+.photos {
+    height: 620px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.buttons {
+    text-align: center;
+}
